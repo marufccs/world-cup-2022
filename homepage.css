@@ -259,14 +259,49 @@ hr{
         width: 210px;
         height: 48px;
     }
+    /* The blog section starts */
     .blog-section {
         display: flex;
         flex-direction: column;
         position: relative;
         top: -280px;
+        margin-bottom: -400px;
     }
     .text p {
         text-align: left;
         font-size: 15px;
     }
+/* The footer starts */
+footer {
+    height: 600px;
+}
+footer h2 {
+    color:white;
+    position: relative;
+    left: 150px;
+    top: 15px;
+}
+hr {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    right: 0px;
+}
+.another-pages {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    left: 0px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.social-media {
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+/* The footer finishes here  */
     }
