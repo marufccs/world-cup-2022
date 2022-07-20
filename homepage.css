@@ -46,9 +46,11 @@ body {
     height: 56px;
     border-radius: 5px;
     margin-bottom: 111px;
+
 }
+
 .link:hover {
-    border: 1px white solid ;
+   border: 1px solid white;
 }
 /* The Image */
 .player-foto img {
@@ -155,6 +157,18 @@ right: 115px;
     height: 26px;
     margin: 0px 150px 20px 20px;
     
+}
+.view-all {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #DD0000;
+    border-radius: 5px;
+    width: 131px;
+    height: 47px;
+    display: none;
 }
 /* The blog section ends */
 /* Starts the footer */
@@ -360,6 +374,14 @@ hr {
             grid-template-columns: repeat(2, 1fr);
             position: relative;
             left: -100px;
+        }
+        .hidden-for-tablet {
+            display: none;
+        }
+        .view-all {
+            display: flex;
+            position: relative;
+            left: 450px;
         }
         /* The footer  */
         footer {
