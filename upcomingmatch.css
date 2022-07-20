@@ -255,9 +255,13 @@ footer h2 {
         flex-direction: column;
         position: relative;
         top: 200px;
-        left: -400px;
-        right: 200px;
+        right: 400px;
     }
+    *{
+        border: 0;
+        margin: 0;
+    }
+    
 /* The footer starts */
 footer {
     height: 600px;
