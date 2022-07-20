@@ -199,6 +199,7 @@ hr{
 /* End of the Footer */
 @media only screen and (max-width:688px) {
     /* The banner section */
+  
     .banner {
         flex-direction: column;
         border: 0;
@@ -305,3 +306,95 @@ hr {
 }
 /* The footer finishes here  */
     }
+    @media only screen and (min-width:689px) and (max-width:992px) {
+        /* The banner */
+        .banner {
+            position: relative;
+            left: -100px;
+            width: 100%;
+        }
+        .intro {
+            width: 316px;
+            height: 276px;
+            position: relative;
+            left: -70px;
+        }
+        .player-foto img {
+            width: 323px;
+            height: 340px;
+            position: relative;
+            top: 200px;
+            right: -50px;
+        }
+        /* The menu  */
+        .menu {
+            display: flex;
+            align-items: center;
+            height: 0;
+            width: 100%;
+            background-color: white;
+            position: relative;
+            left: -200px;
+        }
+        .match, .group, .blog {
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+            width: 230px;
+            height: 64px;
+            border: 1px solid #e8e8e8; 
+            position: relative;
+            left: 70px;
+        }
+        .match{
+            position: relative;
+            top: 15px;
+        }
+       
+        .the-whole-post {
+            flex-direction: column ;
+        }
+        /* The blog section  */
+        .blog-section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            position: relative;
+            left: -100px;
+        }
+        /* The footer  */
+        footer {
+            height: 600px;
+            width: 100%;
+        }
+        footer h2 {
+            color:white;
+            position: relative;
+            left: 350px;
+            top: 15px;
+        }
+        hr {
+            position: relative;
+            top: 50px;
+            left: 50px;
+            width: 700px;
+            right: 0px;
+        }
+        .another-pages {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 70px;
+            left: 0px;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .social-media {
+            position: relative;
+            left: 300px;
+            top: 100px;
+        }
+        /* The footer finishes here  */
+
+        }
+    
